@@ -7,4 +7,4 @@ seconds = hours * 60 * 60 # number of seconds calculated by multiplying hours by
 metres = kilometres * 1000 # number of metres calculated by multiplying kilometres by 1000
 msec = round(metres/seconds) # metres per second calculated by dividing distance by time and then rounded to the nearest integer
 
-print("Your speed is ", kmh, " km/h or ", msec, " m/sec")
+print("Your speed is ", kmh, " km/h or ", msec, " m/sec") # print out both versions of the speed
